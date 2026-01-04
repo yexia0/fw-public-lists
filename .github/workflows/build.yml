@@ -1,0 +1,48 @@
+name: Sync Main to Dev with Daily Snapshot
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync-to-dev:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # Required to push commits and tags
+    
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v3
+        with:
+          ref: main
+          fetch-depth: 0  # Fetch all history for proper tagging
+      
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+      
+      - name: Create data directory if not exists
+        run: mkdir -p data
+      
+      - name: Touch empty file with timestamp
+        run: |
+          TIMESTAMP=$(date +%Y%m%d-%H%M%S)
+          touch "data/.snapshot-${TIMESTAMP}"
+      
+      - name: Commit changes
+        run: |
+          git add data/
+          git commit -m "Daily snapshot: $(date +%Y-%m-%d)" || echo "No changes to commit"
+      
+      - name: Create and push tag
+        run: |
+          TAG_NAME="v$(date +%Y%m%d)-dev"
+          git tag -a "$TAG_NAME" -m "Dev snapshot for $(date +%Y-%m-%d)"
+          git push origin "$TAG_NAME"
+      
+      - name: Force push to dev branch
+        run: |
+          git push origin HEAD:dev --force
