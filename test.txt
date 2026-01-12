@@ -1,0 +1,4 @@
+abc.com
+def.com
+192.168.1.0/24
+@https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/refs/heads/main/noai_hosts.txt
