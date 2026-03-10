@@ -4,4 +4,4 @@
 # License: https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/blob/main/LICENSE
 # Original Author: laylavish
 
-@https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/blob/main/noai_hosts.txt
+@https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/refs/heads/main/noai_hosts.txt
