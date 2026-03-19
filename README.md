@@ -7,7 +7,7 @@ A community-maintained collection of optional blocklists and other curated datas
 - **Community contributions** to keep lists accurate and up-to-date
 - **A central place** for Firewalla users to share curated, useful datasets
 
-> [!Important]
+> [!WARNING]
 > These lists are community-curated and may not be 100% complete or accurate.
 > Use at your own discretion. Firewalla does not guarantee the behavior of third-party domains, nor does it mandate the use of these lists.
 
@@ -76,8 +76,8 @@ If you include domains or lists sourced from another project, you must ensure th
 
 Firewalla is not responsible for improperly attributed or unauthorized submissions. We reserve the right to remove or modify any content that may violate licensing or attribution requirements.
 
-### Disclaimer
-We are not responsible for the content of any submitted list and do not verify whether a list is valid, accurate, compliant, or legally usable. All responsibility for the submitted content rests solely with the submitter. We reserve the right to remove any list at our discretion, including in cases of discrepancies, violations, licensing conflicts, usage restrictions, or quality issues.
+> [!NOTE]
+> We are not responsible for the content of any submitted list and do not verify whether a list is valid, accurate, compliant, or legally usable. All responsibility for the submitted content rests solely with the submitter. We reserve the right to remove any list at our discretion, including in cases of discrepancies, violations, licensing conflicts, usage restrictions, or quality issues.
 
 ## License
 
