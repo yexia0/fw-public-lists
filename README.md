@@ -23,7 +23,10 @@ These are NOT the same as the built-in [Target Lists](https://help.firewalla.com
 
 ## Contributing Guidelines
 
-We welcome all community contributions! To suggest changes, please open a **Pull Request** or create a new **Issue**. Use **one domain per line** and include a brief explanation for each addition, removal, or modification.
+We welcome all community contributions! 
+- To suggest changes, please submit a **Pull Request**. Use **one domain per line** and include a brief explanation for each addition, removal, or modification.
+- To suggest a **new list**, please submit a **Pull Request** with a new `.txt` file.
+- If you're unsure or want to discuss an idea first, feel free to open an **Issue**.
 
 We will do our best to review and verify all changes before they are merged into the main branch, but approval is not guaranteed.
 
@@ -54,7 +57,7 @@ We also support pointers to external lists maintained by another party. In this 
 
 - **Original Author**: Company, organization, or GitHub username of the maintainer.
 
-Then, simply add a link to the raw host text file, **preceeded by** `@`.
+Then, simply add a link to the raw host text file, **preceeded by** `@`. **Please use the domain host file, as we don't support IP/CIDR at this time.**
 
 Example:
 
