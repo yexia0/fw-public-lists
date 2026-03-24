@@ -1,0 +1,7 @@
+# Title: Hagezi's Multi ULTIMATE
+# Description: Ultimate Sweeper - Strictly cleans the Internet and protects your privacy! Blocks Ads, Affiliate, Tracking, Metrics, Telemetry, Phishing, Malware, Scam, Fake, Cryptojacking and other "Crap".
+# Homepage: https://github.com/hagezi/dns-blocklists#ultimate
+# License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
+# Original Author: Hagezi
+
+@https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/domains/ultimate.txt
