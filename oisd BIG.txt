@@ -1,0 +1,6 @@
+# Title: oisd BIG
+# Description: Block. Don't break.
+# Homepage: https://oisd.nl
+# License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
+# Original Author: Stephan van Ruth
+@https://github.com/sjhgvr/oisd/blob/main/oisd_big.txt
